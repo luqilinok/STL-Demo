@@ -165,6 +165,7 @@ inline static void _default_alloc_template<threads, inst>::deallocate(void *p, s
 	*my_free_list = q;
 }
 
+//ÖØĞÂÌî³äfree list
 template<bool threads, int inst>
 inline void * _default_alloc_template<threads, inst>::refill(size_t n)
 {
